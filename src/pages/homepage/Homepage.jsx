@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-export default class Navbar extends Component {
+export default class Homepage extends Component {
   render() {
     return (
-      <div>Navbar</div>
+      <div>Homepage</div>
     )
   }
 }

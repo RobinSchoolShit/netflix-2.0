@@ -1,13 +1,13 @@
-import './App.css'
+import './App.scss'
 
 import React, { Component } from 'react'
-import Navbar from './components/navbar/Navbar'
+import Navigation from './components/navigation/Navigation'
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <Navigation />
         <h1>Netflix</h1>
       </div>
     )
