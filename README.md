@@ -1,1 +1,0 @@
-# Netflix clone school opdracht ReactJS
