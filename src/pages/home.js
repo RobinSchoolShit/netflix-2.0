@@ -8,6 +8,7 @@ import JumbotronContainer from '../containers/jumbotron'
 export default function Home() {
   return (
     <>
+    {/* Header components */}
       <HeaderContainer>
       <Feature>
           <Feature.Title>Unlimited films, TV programmes and more.</Feature.Title>
@@ -22,8 +23,11 @@ export default function Home() {
       </OptForm>
       </Feature>
       </HeaderContainer>
+      {/* De jumbotron met text en images */}
         <JumbotronContainer />
+        {/* Het FAQ gedeelte */}
         <FaqsContainer />
+        {/* De footer */}
         <FooterContainer />
     </>
   )
