@@ -1,10 +1,10 @@
 ### feedback
 
-- Firebase login register
-- Comments
-- Manifest error wegwerken
+- Firebase login register systeem
+- Comments bij de code zetten
+- Errors wegwerken
 
 
 ### feedback gefixt
 
-- Manifest error is gefixt
+- Errors zijn gefixt
