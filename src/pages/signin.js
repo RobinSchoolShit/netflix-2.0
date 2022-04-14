@@ -7,6 +7,7 @@ import { FooterContainer } from '../containers/footer';
 import * as ROUTES from '../constants/routes';
 
 export default function SignIn() {
+  // De code hieronder is voor de validatie van Firebase
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
@@ -34,6 +35,7 @@ export default function SignIn() {
 
   return (
     <>
+    {/* De signup form */}
       <HeaderContainer>
         <Form>
           <Form.Title>Sign In</Form.Title>

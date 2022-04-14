@@ -5,6 +5,7 @@ import logo from '../logo.svg';
 
 export function HeaderContainer({ children }) {
   return (
+    // Het header component
     <Header>
       <Header.Frame>
         <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />

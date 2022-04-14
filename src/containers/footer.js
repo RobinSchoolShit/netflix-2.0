@@ -3,6 +3,7 @@ import { Footer } from "../components";
 
 export function FooterContainer() {
     return (
+        // het footer component
         <Footer>
             <Footer.Title>Questions? Contact us.</Footer.Title>
             <Footer.Break/>

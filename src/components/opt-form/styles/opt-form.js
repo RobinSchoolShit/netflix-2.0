@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro';
 
+// De styled components van de opt-form
 export const Container = styled.div`
   display: flex;
   justify-content: center;

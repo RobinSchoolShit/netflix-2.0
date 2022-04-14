@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro'
 
+// De styled components van de jumbotron
 export const Item = styled.div`
   display: flex;
   border-bottom: 8px solid #222;

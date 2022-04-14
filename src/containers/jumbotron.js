@@ -4,6 +4,7 @@ import Jumbotron from '../components/jumbotron'
 
 export default function JumbotronContainer() {
   return (
+    // Het jumbotron component
     <Jumbotron.Container>
       {jumboData.map((item) => (
         <Jumbotron key={item.id} direction={item.direction}>

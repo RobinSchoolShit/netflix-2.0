@@ -5,6 +5,7 @@ import * as ROUTES from './constants/routes'
 
 export default function App() {
   return (
+    // De code hieronder is zodat alle pages de goede URL hebben doormiddel van React Router
     <Routes>
       <Route exact path={ROUTES.HOME}>
         <Home/>

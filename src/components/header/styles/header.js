@@ -1,6 +1,7 @@
 import styled from 'styled-components/macro';
 import { Link as ReachRouterLink } from 'react-router-dom';
 
+// De styled components van de header
 export const Background = styled.div`
   display: flex;
   flex-direction: column;

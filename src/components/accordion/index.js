@@ -19,6 +19,7 @@ export default function Accordion({ children, ...restProps }) {
   )
 }
 
+// Dit maakt de componenten aan
 Accordion.Title = function AccordionTitle({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>
 }

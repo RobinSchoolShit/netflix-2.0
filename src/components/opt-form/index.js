@@ -5,6 +5,7 @@ export default function OptForm({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>
 }
 
+// Dit maakt de componenten aan
 OptForm.Input = function OptFormInput({ ...restProps }) {
     return <Input {...restProps} />
 }

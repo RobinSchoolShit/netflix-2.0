@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro';
 
+// De styled components van de feature
 export const Container = styled.div`
   display: flex;
   flex-direction: column;

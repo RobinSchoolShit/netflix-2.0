@@ -5,6 +5,7 @@ export default function Feature({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 }
 
+// Dit maakt de componenten aan
 Feature.Title = function FeatureTitle({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>;
 };

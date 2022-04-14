@@ -29,6 +29,7 @@ export default function Header({ bg = true, children, ...restProps }) {
   );
 }
 
+// Dit maakt de componenten aan
 Header.Frame = function HeaderFrame({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 };

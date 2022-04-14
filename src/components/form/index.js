@@ -5,6 +5,7 @@ export default function Form({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 }
 
+// Dit maakt de componenten aan
 Form.Error = function FormError({ children, ...restProps }) {
   return <Error {...restProps}>{children}</Error>;
 };

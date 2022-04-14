@@ -5,6 +5,7 @@ import faqsData from '../fixtures/faqs.json'
 
 export function FaqsContainer() {
   return (
+    // Het FAQ component
     <Accordion>
       <Accordion.Title>Frequently Asked Questions</Accordion.Title>
       {faqsData.map((item) => (

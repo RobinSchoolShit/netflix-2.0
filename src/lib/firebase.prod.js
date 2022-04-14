@@ -2,8 +2,11 @@ import Firebase from 'firebase/app'
 import 'firebase/firestore';
 import 'firebase/auth'
 
+
+
 // import { seedDatabase } from '../seed';
 
+// Dit is de code voor de Firebase connectie
 const config = {
   apiKey: 'AIzaSyAsNy3ev4jhz0H3YtK0Iy1l8fn78NRRoFY',
   authDomain: 'netflix-5a233.firebaseapp.com',

@@ -11,6 +11,7 @@ export default function Jumbotron({ children, direction = 'row',  ...restProps})
   )
 }
 
+// Dit maakt de componenten aan
 Jumbotron.Container = function JumbotronContainer({ children, ...restProps }) {
     return <Container { ...restProps }>{children}</Container>
 }
